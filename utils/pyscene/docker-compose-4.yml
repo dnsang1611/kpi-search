@@ -1,0 +1,14 @@
+services:
+  pyscenedetect3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pyscenedetect_4
+    # image: pyscene-pyscenedetect
+    volumes:
+      - .:/workspace
+      - /mnt/mmlab2024nas/visedit/AIC2024/data/Video_a:/opt/Video_a
+    working_dir: /workspace
+    environment:
+      - BATCH_ID=4
+    command: ["python", "main.py"]

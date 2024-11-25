@@ -1,0 +1,14 @@
+[
+    {
+        "id": 12,
+        "frame_start": "<video_id>/<frame_number>.jpg",
+        "frame_end": "<video_id>/<frame_number>.jpg",
+        "text": "This is a sample shot summary"
+    },
+    {
+        "id": 13,
+        "frame_start": "<video_id>/<frame_number>.jpg",
+        "frame_end": "<video_id>/<frame_number>.jpg",
+        "text": "This is a sample shot summary"
+    }
+]
