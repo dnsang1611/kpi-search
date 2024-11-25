@@ -1,0 +1,9 @@
+natsort
+fastapi[standard]
+uvicorn
+meilisearch==0.28.2
+faiss-cpu==1.7.4
+tqdm
+transformers==4.42.3
+scikit-image
+opencv-python
